@@ -32,6 +32,7 @@ Import data ke KNIME, dengan DB Reader, agar bisa diproses data di databasenya l
 
 2. DB_InDB_Processing<br>
 2.1 Melakukan join ss13hme dan ss13pme dengan acuan serialno, serta memfilter kolom PUMA* dan PWGTP*
+
 Melakukan filter kolom PUMA* dan PWGTP*
 
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/1/filter-kolom-puma.png)
@@ -50,7 +51,8 @@ Melakukan import data
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/1/imported-data.png)
 
 2.2 Filter row yang mempunyai nilai NULL pada kolom COW
-Melakukan konfiurasi pada DB row filter
+
+Melakukan konfigurasi pada DB row filter
 
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/2/filter-config.png)
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/2/hasil%20akhir.png)
@@ -60,6 +62,7 @@ Melakukan import data
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/2/import-data.png)
 
 2.3 Filter row yang mempunyai nilai NOT NULL pada kolom COW
+
 Melakukan konfiurasi pada DB row filter
 
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/3/conifg-filter.png)
@@ -70,6 +73,7 @@ Melakukan import data
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/3/import%20data.png)
 
 2.4 Menghitung rata-rata AGEP
+
 Melakukan konfigurasi pada DBGroupBy:
 
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/4/hasil-akhir.png)
@@ -81,6 +85,7 @@ Melakukan import data
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/4/imported-data.png)
 
 2.5 Descending sort data dengan acuan kolom AGEP, dan limit menjadi 10 baris
+
 Melakukan beberapa konfigurasi
 
 ![alt](https://github.com/hisamwp/tugas2-bigdata/blob/master/1_DB/2/5/hasil-akhir.png)
